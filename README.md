@@ -46,7 +46,7 @@ from django.contrib import admin
 
 # Create your models here.
 class Employee(models.Model):
-    registernumber=models.CharField(max_length=20,help_text='register number')
+    registernumber=models.CharField(primary_key=True,max_length=20,help_text='register number')
     name=models.CharField(max_length=100)
     age=models.IntegerField()
     email=models.EmailField()
@@ -69,7 +69,7 @@ admin.site.register(Employee,EmployeeAdmin)
 
 ## OUTPUT
 ![images](images/EXO2django-orm-app.png)
-
+![images](images/Primarykey.png)
 ## RESULT
 Django application to store and retrieve data from a database using Object Relational Mapping(ORM) is created successfully
 
