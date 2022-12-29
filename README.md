@@ -62,7 +62,7 @@ admin.site.register(Employee,EmployeeAdmin)
 
 
 ## OUTPUT
-![images](./images/EX02django-orm-app.png)
+![images](images/EXO2ERDiagram.png)
 
 ## RESULT
 The Database is created successfully
