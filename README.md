@@ -9,13 +9,19 @@ To develop a Django application to store and retrieve data from a database using
 ## DESIGN STEPS
 
 ### STEP 1:
-Develpoing Admin 
+Creating a django project and creating myapp
 
 ### STEP 2:
-Creating a Database using Python codes
+Defining a model for employee_details.
 
 ### STEP 3:
-Adding necessary details in the database
+Allowing host access
+
+### STEP 4:
+Register the models in admin.py
+
+### STEP 5:
+Do the migrations and run the server
 
 ## PROGRAM
 ```
@@ -65,4 +71,5 @@ admin.site.register(Employee,EmployeeAdmin)
 ![images](images/EXO2django-orm-app.png)
 
 ## RESULT
-The Database is created successfully
+Django application to store and retrieve data from a database using Object Relational Mapping(ORM) is created successfully
+
